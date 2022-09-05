@@ -25,10 +25,59 @@
     align-items: center;
     width: 100%;
     height: 50px;
+    position: relative;
   }
 
   .top-nav {
-    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(190, 176, 176);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    padding: 28px;
+    transform: translateX(130%);
+    transition: all 500ms ease-in-out;
+  }
+
+  .menu-show{
+    transform: translateX(0);
+  }
+
+  .top-nav::after{
+    content: "";
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    height: 5px;
+    width: 90px;
+
+  }
+
+  .top-nav a{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #3A4A42;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 600;
+  }
+
+  .close-btn{
+    position: absolute;
+    top: 3%;
+    right: 20%;
+    z-index: 999;
+    font-size: 24px;
+  }
+
+  .top-nav:not(:first-child){
+    margin-top: 40px;
   }
 
   .greating {

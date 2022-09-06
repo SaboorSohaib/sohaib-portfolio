@@ -9,3 +9,9 @@ menuBtn.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
   nav.classList.remove('menu-show');
 });
+
+document.querySelectorAll('.top-nav').forEach((n) => (
+  n.addEventListener('click', () => {
+    menuBtn.classList.remove('menu-show');
+    nav.classList.remove('menu-show');
+  })));

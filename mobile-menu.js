@@ -10,6 +10,10 @@ closeBtn.addEventListener('click', () => {
   nav.classList.remove('menu-show');
 });
 
+document.querySelector('.menu').addEventListener('click', () => {
+  nav.style.display = 'block';
+});
+
 document.querySelectorAll('.top-nav').forEach((n) => (
   n.addEventListener('click', () => {
     menuBtn.classList.remove('menu-show');

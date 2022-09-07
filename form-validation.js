@@ -6,13 +6,7 @@ const validEmail = (mail) => {
     return false;
 };
 
-submitBtn.addEventListener('click', (event) => {
-    const validatedEmail = document.getElementById('mail').value;
-    if(!validEmail(validatedEmail)){
-        document.querySelector('#mail-message').innerHTML= "Please type the email in lowercase";
-        event.preventDefault();
-    }
-})
+
 
 
 

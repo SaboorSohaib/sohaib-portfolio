@@ -1,17 +1,16 @@
 // ======================= Form Validation ===================================
 
 const submitBtn = document.querySelector('#submit-btn');
-const validEmail = (mail) => {
-    if (mail.match(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/)){
+const validEmail = (email) => {
+    if (email.match(/^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/)){
         return true;
     }
-    return false;
+        return false;
 };
 submitBtn.addEventListener('click', (event) => {
-    const validatedEmail = document.getElementById('mail').value;
+    const validatedEmail = document.getElementById('email').value;
     if(!validEmail(validatedEmail)) {
-       let lable = document.querySelector('.lable').innerHTML= "Please type the email in lowercase";
-        event.preventDefault();
-    }
-    
+       document.querySelector('.lable').innerHTML= "Please type the email in lowercase";
+       event.preventDefault();
+    } 
 });

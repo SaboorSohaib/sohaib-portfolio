@@ -420,7 +420,7 @@
     letter-spacing: 0.03em;
     color: rgb(255, 255, 255);
     background-color: rgb(84, 236, 173);
-    box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
+    box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
   }
 
   .multi-stories2 button {
@@ -458,7 +458,7 @@
     letter-spacing: 0.03em;
     color: rgb(255, 255, 255);
     background-color: rgb(84, 236, 173);
-    box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
+    box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
   }
 
   .multi-stories3 button {
@@ -496,7 +496,7 @@
     text-align: justify;
     color: rgb(255, 255, 255);
     background-color: rgb(84, 236, 173);
-    box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
+    box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
   }
 
   .multi-stories4 button {
@@ -534,7 +534,7 @@
     letter-spacing: 0.03em;
     color: rgb(255, 255, 255);
     background-color: rgb(84, 236, 173);
-    box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
+    box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
   }
 
   .multi-stories5 button {
@@ -569,7 +569,7 @@
     letter-spacing: 0.03em;
     color: rgb(255, 255, 255);
     background-color: rgb(84, 236, 173);
-    box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
+    box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
   }
 
   .multi-stories6 button {
@@ -607,7 +607,7 @@
     letter-spacing: 0.03em;
     color: rgb(255, 255, 255);
     background-color: rgb(84, 236, 173);
-    box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
+    box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
   }
 
   .about {
@@ -788,7 +788,7 @@
     letter-spacing: 0.03em;
     color: rgb(255, 255, 255);
     background-color: rgb(84, 236, 173);
-    box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
+    box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
   }
 
   .contact-form {
@@ -806,7 +806,7 @@
   .contact-form-bottom {
     display: flex;
     flex-direction: column;
-    margin-right: 110px;
+    margin-right: 90px;
 }
 }
 

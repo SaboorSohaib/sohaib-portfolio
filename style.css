@@ -992,6 +992,11 @@
     margin-bottom: -55px;
   }
 
+  #mail-message {
+    font-size: 16px;
+    color: rgb(66, 82, 110);
+  }
+
   @media only screen and (min-width: 768px) {
   body {
     width: 100%;

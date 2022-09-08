@@ -1,9 +1,6 @@
-/* stylelint-disable length-zero-no-unit */
-/* stylelint-disable no-descending-specificity */
-/* stylelint-disable no-duplicate-selectors */
-/* stylelint-disable no-missing-end-of-source-newline */
 /* stylelint-disable indentation */
-/* stylelint-disable block-closing-brace-empty-line-before */
+/* stylelint-disable no-descending-specificity */
+
 * {
     margin: 0;
     padding: 0;
@@ -42,7 +39,6 @@
     padding: 28px;
     transform: translateX(100%);
     transition: all 0.25s ease-in-out;
-
   }
 
   .menu-show {
@@ -143,15 +139,12 @@
 
     80% {
         transform: translate(10px);
-
     }
 
     100% {
         opacity: 1;
         transform: translate(0);
-
     }
-
   }
 
   .main .desk-h1 {
@@ -246,7 +239,6 @@
     border-radius: 24px;
     margin-top: 24px;
     margin-bottom: 62px;
-
   }
 
   .recentwork {
@@ -422,7 +414,7 @@
     letter-spacing: 0.03em;
     color: rgb(255, 255, 255);
     background-color: rgb(84, 236, 173);
-    box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+    box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
   }
 
   .multi-stories2 button {
@@ -460,7 +452,7 @@
     letter-spacing: 0.03em;
     color: rgb(255, 255, 255);
     background-color: rgb(84, 236, 173);
-    box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+    box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
   }
 
   .multi-stories3 button {
@@ -498,7 +490,7 @@
     text-align: justify;
     color: rgb(255, 255, 255);
     background-color: rgb(84, 236, 173);
-    box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+    box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
   }
 
   .multi-stories4 button {
@@ -536,7 +528,7 @@
     letter-spacing: 0.03em;
     color: rgb(255, 255, 255);
     background-color: rgb(84, 236, 173);
-    box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+    box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
   }
 
   .multi-stories5 button {
@@ -571,7 +563,7 @@
     letter-spacing: 0.03em;
     color: rgb(255, 255, 255);
     background-color: rgb(84, 236, 173);
-    box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+    box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
   }
 
   .multi-stories6 button {
@@ -609,7 +601,7 @@
     letter-spacing: 0.03em;
     color: rgb(255, 255, 255);
     background-color: rgb(84, 236, 173);
-    box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+    box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
   }
 
   .about {
@@ -707,7 +699,6 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
-
   }
 
   .ca-se {
@@ -775,7 +766,6 @@
     cursor: pointer;
     display: flex;
     justify-content: center;
-
   }
 
   .about-btn:hover {
@@ -792,7 +782,7 @@
     letter-spacing: 0.03em;
     color: rgb(255, 255, 255);
     background-color: rgb(84, 236, 173);
-    box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+    box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
   }
 
   .contact-form {
@@ -941,16 +931,8 @@
     gap: 10px;
     width: 129px;
     height: 48px;
-    box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+    box-shadow: 8px 16px rgba(54, 179, 127, 0.24);
     text-align: justify;
-    border-radius: 4px;
-  }
-
-  .contact-btn:active {
-    padding: 12px;
-    width: 129px;
-    height: 48px;
-    background: rgb(0, 133, 82);
     border-radius: 4px;
   }
 
@@ -962,11 +944,6 @@
     gap: 20px;
     margin-top: 44px;
     margin-left: 80px;
-  }
-
-  .socialicon li a {
-    flex: 1;
-    align-items: center;
   }
 
   .email-address {
@@ -1080,13 +1057,11 @@
 
       80% {
           transform: translate(10px);
-
       }
 
       100% {
           opacity: 1;
           transform: translate(0);
-
       }
     }
 
@@ -1185,7 +1160,6 @@
     flex-direction: row;
     align-items: center;
     gap: 8px;
-
    }
 
    .tag a {
@@ -1308,5 +1282,4 @@
   .last-div {
     display: none;
    }
-
   }

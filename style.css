@@ -232,6 +232,12 @@
     margin-right: 22px;
   }
 
+@media only screen and (min-width: 380px) {
+    .text {
+    margin-right: 60px;
+    }
+}
+
   .indicator {
     width: 48px;
     height: 4px;
@@ -796,6 +802,14 @@
     text-align: center;
   }
 
+@media only screen and (min-width: 380px) {
+  .contact-form-bottom {
+    display: flex;
+    flex-direction: column;
+    margin-right: 110px;
+}
+}
+
   .contact-text {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -946,6 +960,12 @@
     margin-left: 80px;
   }
 
+@media only screen and (min-width: 380px) {
+  .fotter-icon {
+    margin-right: 110px;
+  }
+}
+
   .email-address {
     width: 375px;
     height: 189px;
@@ -960,6 +980,12 @@
     color: rgb(66, 82, 110);
   }
 
+@media only screen and (min-width: 380px) {
+   .email-address {
+    margin-left: 1px;
+   }
+}
+
   .last-div {
     height: 4px;
     width: 200px;
@@ -968,6 +994,12 @@
     margin-left: 120px;
     margin-bottom: -55px;
   }
+
+@media only screen and (min-width: 380px) {
+   .last-div {
+    margin-left: 1px;
+  }
+}
 
   #mail-message {
     font-size: 16px;

@@ -12,8 +12,6 @@ body.onload = () => {
     nameInput.value = serialize.name;
     email.value = serialize.email;
     msg.value = serialize.message;
-  } else {
-    alert('Nothing');
   }
 };
 

@@ -11,6 +11,5 @@ submitBtn.addEventListener('click', (event) => {
   const validatedEmail = document.getElementById('email').value;
   if (!validEmail(validatedEmail)) {
     document.querySelector('.lable').innerHTML = 'Please type the email in lowercase';
-
   }
 });

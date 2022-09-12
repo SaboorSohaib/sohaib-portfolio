@@ -791,14 +791,6 @@
     box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
   }
 
-  /* @media only screen and (min-width: 470px) {
-    .contact-form-bottom {
-      display: flex;
-      flex-direction: column;
-      margin-right: 90px;
-  }
-  } */
-
   .contact-form {
     display: flex;
     flex-direction: column;
@@ -809,14 +801,6 @@
     margin-bottom: 58px;
     text-align: center;
   }
-
-@media only screen and (min-width: 400px) {
-  .contact-form-bottom {
-    display: flex;
-    flex-direction: column;
-    margin-right: 30px;
-}
-}
 
   .contact-text {
     font-family: 'Inter', sans-serif;

@@ -19,4 +19,3 @@ document.querySelectorAll('.top-nav').forEach((n) => (
     menuBtn.classList.remove('menu-show');
     nav.classList.remove('menu-show');
   })));
-

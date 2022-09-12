@@ -1,18 +1,81 @@
-const projectBtn = document.querySelector('.project-btn');
-const modalBg = document.querySelector('.modal-bg');
+const data = [
+    {
+        projectId : 1,
+        name: 'Keeping tracks of hunders of components',
+        projectDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+        imageDesktop: 'assest/Snapshoot Portfolio.png',
+        githubIcon: 'assest/Vector.png',
+        liveIcon: 'assest/Icon-Export.png',
+        technologiesDesktop: ['Codekit','Github','JavaScript','Bootstrap','Terminal','Codepen'],
+        technologiesMobile: ['Ruby on Rails','CSS','JavaScript','HTML'],
+        sourceLink: 'https://github.com/SaboorSohaib/Protfilo',
+        liveLink: 'https://saboorsohaib.github.io/Protfilo/',
+    },
 
-// projectBtn.addEventListener('click', () => {
-//     modalBg.style.diplay = 'block';
-// });
+    {
+        projectId : 2,
+        name: 'Keeping tracks of hunders of components',
+        projectDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+        imageDesktop: 'assest/Snapshoot Portfolio.png',
+        githubIcon: 'assest/Vector.png',
+        liveIcon: 'assest/Icon-Export.png',
+        technologiesDesktop: ['Codekit','Github','JavaScript','Bootstrap','Terminal','Codepen'],
+        technologiesMobile: ['Ruby on Rails','CSS','JavaScript','HTML'],
+        sourceLink: 'https://github.com/SaboorSohaib/Protfilo',
+        liveLink: 'https://saboorsohaib.github.io/Protfilo/',
+    },
 
-// projectBtn.addEventListener('click', () => {
-//     modalBg.classList.add('.modal');
-// })
+    {
+        projectId: 3,
+        name: 'Keeping tracks of hunders of components',
+        projectDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+        imageDesktop: 'assest/Snapshoot Portfolio.png',
+        githubIcon: 'assest/Vector.png',
+        liveIcon: 'assest/Icon-Export.png',
+        technologiesDesktop: ['Codekit','Github','JavaScript','Bootstrap','Terminal','Codepen'],
+        technologiesMobile: ['Ruby on Rails','CSS','JavaScript','HTML'],
+        sourceLink: 'https://github.com/SaboorSohaib/Protfilo',
+        liveLink: 'https://saboorsohaib.github.io/Protfilo/',
+    },
 
-// document.querySelector('.project-btn').addEventListener('click', () => {
-//     modalBg.style.display = 'block';
-// })
+    {
+        projectId: 4,
+        name: 'Keeping tracks of hunders of components',
+        projectDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+        imageDesktop: 'assest/Snapshoot Portfolio.png',
+        githubIcon: 'assest/Vector.png',
+        liveIcon: 'assest/Icon-Export.png',
+        technologiesDesktop: ['Codekit','Github','JavaScript','Bootstrap','Terminal','Codepen'],
+        technologiesMobile: ['Ruby on Rails','CSS','JavaScript','HTML'],
+        sourceLink: 'https://github.com/SaboorSohaib/Protfilo',
+        liveLink: 'https://saboorsohaib.github.io/Protfilo/',
+    },
 
-projectBtn.addEventListener('click', () => {
-    modalBg.classList.add('bg-active');
-})
+    {
+        projectId: 5,
+        name: 'Keeping tracks of hunders of components',
+        projectDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+        imageDesktop: 'assest/Snapshoot Portfolio.png',
+        githubIcon: 'assest/Vector.png',
+        liveIcon: 'assest/Icon-Export.png',
+        technologiesDesktop: ['Codekit','Github','JavaScript','Bootstrap','Terminal','Codepen'],
+        technologiesMobile: ['Ruby on Rails','CSS','JavaScript','HTML'],
+        sourceLink: 'https://github.com/SaboorSohaib/Protfilo',
+        liveLink: 'https://saboorsohaib.github.io/Protfilo/',
+    },
+
+    {
+        projectId: 6,
+        name: 'Keeping tracks of hunders of components',
+        projectDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+        imageDesktop: 'assest/Snapshoot Portfolio.png',
+        githubIcon: 'assest/Vector.png',
+        liveIcon: 'assest/Icon-Export.png',
+        technologiesDesktop: ['Codekit','Github','JavaScript','Bootstrap','Terminal','Codepen'],
+        technologiesMobile: ['Ruby on Rails','CSS','JavaScript','HTML'],
+        sourceLink: 'https://github.com/SaboorSohaib/Protfilo',
+        liveLink: 'https://saboorsohaib.github.io/Protfilo/',
+    },
+];
+
+//const popModal = document.getElementById('popModal')

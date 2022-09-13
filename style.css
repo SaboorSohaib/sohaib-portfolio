@@ -55,6 +55,13 @@
     font-weight: 600;
   }
 
+  .top-nav a:hover {
+    border: 3px solid rgb(54, 179, 127);
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.2s ease;
+  }
+
   .top-nav-a {
   margin-bottom: 20px;
 }

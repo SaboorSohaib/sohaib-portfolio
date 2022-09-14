@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="./fontawesome/css/all.css" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="modal.css" type="text/css">
+
     <title>Sohaib</title>
   </head>
   <body>
@@ -72,18 +73,30 @@
             <a href="#"><img src="./assest/Disabled.png" alt="" /></a>
           </div>
         </section>
-      </header>
-      <!--Recent Work Section-->
-      <section class="recentwork">
+
+        </header> 
+
+        <!--Pop up Modal-->
+        <div id="popModal" class="modal modal-dialog modal-dialog-centered modal-dialog-scrollable"></div>
+
+ <!--Recent Work Section--> 
+    <section class="recentwork">
+
         <div class="text">
           <h2>My Recent Works</h2>
         </div>
 
-        <div class="indicator"></div>
-        <div class="card-work">
-          <div class="multi-stories1">
-            <div class="cardpohto"></div>
 
+        <div class="indicator">
+            
+        </div>
+
+        
+    <div class="card-work">
+        <div class="multi-stories1">
+            <div class="cardpohto">
+
+            </div>
             <h2 class="card-title">Mult-Post Stories<br />Gain+Glory</h2>
             <ul class="tag">
               <li><a href="#">Ruby on rails</a></li>
@@ -103,11 +116,13 @@
               <li><a href="#">JavaScript</a></li>
               <li><a href="#">html</a></li>
             </ul>
-            <button>See Project</button>
-          </div>
-          <div class="multi-stories3">
-            <div class="cardpohto"></div>
 
+             <button  onclick="projectsDetails(0)">See Project</button>
+        </div> 
+        <div class="multi-stories2">
+            <div class="cardpohto">
+
+              </div>
             <h2 class="card-title">Mult-Post Stories<br />Gain+Glory</h2>
             <ul class="tag">
               <li><a href="#">Ruby on rails</a></li>
@@ -127,10 +142,12 @@
               <li><a href="#">JavaScript</a></li>
               <li><a href="#">html</a></li>
             </ul>
-            <button>See Project</button>
-          </div>
-          <div class="multi-stories5">
-            <div class="cardpohto"></div>
+
+             <button  onclick="projectsDetails(1)">See Project</button>
+        </div> 
+        <div class="multi-stories3">
+            <div class="cardpohto">
+
 
             <h2 class="card-title">Mult-Post Stories<br />Gain+Glory</h2>
             <ul class="tag">
@@ -151,20 +168,52 @@
               <li><a href="#">JavaScript</a></li>
               <li><a href="#">html</a></li>
             </ul>
-            <button>See Project</button>
-          </div>
+
+             <button  onclick="projectsDetails(2)">See Project</button>
         </div>
-        <!--About Section-->
-      </section>
-      <section class="about" id="About">
-        <div class="about-me">
-          <h3 class="about-title">About me</h3>
-          <p class="about-text">
-            I can help you build a product , feature or website Look through some of my
-            work and experience! If you like what you see and have a project you need
-            coded, dont hestiate to contact me.
-          </p>
-          <a class="about-btn">Get My Resume</a>
+             <div class="multi-stories4">
+                <div class="cardpohto">
+    
+                </div>
+    
+                <h2 class="card-title">Mult-Post Stories<br>Gain+Glory</h2>
+                <ul class="tag">
+                    <li><a href="#">Ruby on rails</a></li>
+                    <li><a href="#">css</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">html</a></li>
+                </ul>
+                 <button  onclick="projectsDetails(3)">See Project</button>
+            </div> 
+            <div class="multi-stories5">
+                <div class="cardpohto">
+    
+                </div>
+    
+                <h2 class="card-title">Mult-Post Stories<br>Gain+Glory</h2>
+                <ul class="tag">
+                    <li><a href="#">Ruby on rails</a></li>
+                    <li><a href="#">css</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">html</a></li>
+                </ul>
+                 <button  onclick="projectsDetails(4)">See Project</button>
+            </div> 
+            <div class="multi-stories6">
+                <div class="cardpohto">
+    
+                </div>
+    
+                <h2 class="card-title">Mult-Post Stories<br>Gain+Glory</h2>
+                <ul class="tag">
+                    <li><a href="#">Ruby on rails</a></li>
+                    <li><a href="#">css</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">html</a></li>
+                </ul>
+                 <button  onclick="projectsDetails(5)">See Project</button>
+            </div> 
+
         </div>
         <div class="cards">
           <div class="language about-card">
@@ -203,6 +252,7 @@
             </ul>
           </div>
         </div>
+      </div>
       </section>
       <!--Form Section-->
       <section class="contact-form" id="Contact">
@@ -269,12 +319,34 @@
             </li>
           </ul>
         </div>
-        <div class="email-address">
-          <p>abdulsaboorsohaib@gmail.com</p>
-        </div>
-        <div class="last-div"></div>
-      </section>
+
+        <hr>
+            <div class="fotter-icon">
+                <ul class="socialicon1">
+                    <li class="twitter">
+                        <a href="#"><img src="./assest/twitter.svg" alt="twitter"></a>
+                    </li>
+                    <li class="link">
+                        <a href="#"><img src="./assest/Linkedinicon.svg" alt="Linkedin"></a>
+                    </li>
+                    <li class="medium">
+                        <a href="#"><img src="./assest/medium.svg" alt="medium"></a>
+                    </li>
+                    <li class="githup">
+                       <a href="#"> <img src="./assest/github.svg" alt="githup"></a>
+                    </li>
+                    <li class="angallist">
+                       <a href="#"><img src="./assest/angellist.svg" alt="angellist"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="email-address">
+                <p>abdulsaboorsohaib@gmail.com</p>
+            </div>
+            <div class="last-div"></div>
+        </section>
     </div>
-    <script src="menu.js"></script>
-  </body>
+    <script src="mobile-details.js"></script>
+</body>
 </html>
+

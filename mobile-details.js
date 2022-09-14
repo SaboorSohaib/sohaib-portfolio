@@ -6,7 +6,7 @@ const data = [
         imageDesktop: 'assest/Snapshoot Portfolio.png',
         githubIcon: 'assest/Vector.png',
         liveIcon: 'assest/icon-Export.png',
-        technologiesMobile: ['Ruby on Rails','CSS','JavaScript','HTML'],
+        technologiesMobile: ['Ruby on Rails','CSS','JavaScript'],
         technologiesDesktop: ['Codekit','Github','JavaScript','Bootstrap','Terminal','Codepen'],
         sourceLink: 'https://github.com/SaboorSohaib/Protfilo',
         liveLink: 'https://saboorsohaib.github.io/Protfilo/',
@@ -19,7 +19,7 @@ const data = [
         imageDesktop: 'assest/Snapshoot Portfolio.png',
         githubIcon: 'assest/Vector.png',
         liveIcon: 'assest/icon-Export.png',
-        technologiesMobile: ['Ruby on Rails','CSS','JavaScript','HTML'],
+        technologiesMobile: ['Ruby on Rails','CSS','JavaScript'],
         technologiesDesktop: ['Codekit','Github','JavaScript','Bootstrap','Terminal','Codepen'],
         sourceLink: 'https://github.com/SaboorSohaib/Protfilo',
         liveLink: 'https://saboorsohaib.github.io/Protfilo/',
@@ -32,7 +32,7 @@ const data = [
         imageDesktop: 'assest/Snapshoot Portfolio.png',
         githubIcon: 'assest/Vector.png',
         liveIcon: 'assest/icon-Export.png',
-        technologiesMobile: ['Ruby on Rails','CSS','JavaScript','HTML'],
+        technologiesMobile: ['Ruby on Rails','CSS','JavaScript'],
         technologiesDesktop: ['Codekit','Github','JavaScript','Bootstrap','Terminal','Codepen'],
         sourceLink: 'https://github.com/SaboorSohaib/Protfilo',
         liveLink: 'https://saboorsohaib.github.io/Protfilo/',
@@ -45,7 +45,7 @@ const data = [
         imageDesktop: 'assest/Snapshoot Portfolio.png',
         githubIcon: 'assest/Vector.png',
         liveIcon: 'assest/icon-Export.png',
-        technologiesMobile: ['Ruby on Rails','CSS','JavaScript','HTML'],
+        technologiesMobile: ['Ruby on Rails','CSS','JavaScript'],
         technologiesDesktop: ['Codekit','Github','JavaScript','Bootstrap','Terminal','Codepen'],
         sourceLink: 'https://github.com/SaboorSohaib/Protfilo',
         liveLink: 'https://saboorsohaib.github.io/Protfilo/',
@@ -58,7 +58,7 @@ const data = [
         imageDesktop: 'assest/Snapshoot Portfolio.png',
         githubIcon: 'assest/Vector.png',
         liveIcon: 'assest/icon-Export.png',
-        technologiesMobile: ['Ruby on Rails','CSS','JavaScript','HTML'],
+        technologiesMobile: ['Ruby on Rails','CSS','JavaScript'],
         technologiesDesktop: ['Codekit','Github','JavaScript','Bootstrap','Terminal','Codepen'],
         sourceLink: 'https://github.com/SaboorSohaib/Protfilo',
         liveLink: 'https://saboorsohaib.github.io/Protfilo/',
@@ -71,7 +71,7 @@ const data = [
         imageDesktop: 'assest/Snapshoot Portfolio.png',
         githubIcon: 'assest/Vector.png',
         liveIcon: 'assest/icon-Export.png',
-        technologiesMobile: ['Ruby on Rails','CSS','JavaScript','HTML'],
+        technologiesMobile: ['Ruby on Rails','CSS','JavaScript'],
         technologiesDesktop: ['Codekit','Github','JavaScript','Bootstrap','Terminal','Codepen'],
         sourceLink: 'https://github.com/SaboorSohaib/Protfilo',
         liveLink: 'https://saboorsohaib.github.io/Protfilo/',
@@ -113,13 +113,13 @@ function projectsDetails(projectIdx){
       </ul>
       <p id="projectDescription">${myProject.projectDescription}</p>
       <div class="pop-modal-footer">
-      <a href="${myProject.liveLink}">
+      <a href="${myProject.liveLink}" class"bt-tag">
         <button type="submit" class="show-project-btn">
         <span>See Live</span>
         <img src="${myProject.liveIcon}" alt="see the peoject live"/>
         </button>
       </a>
-      <a href="${myProject.sourceLink}">
+      <a href="${myProject.sourceLink}" class"bt-tag">
         <button type="submit" class="show-project-btn">
         <span>See Source</span>
         <img src="${myProject.githubIcon}" alt="see the source code"/>

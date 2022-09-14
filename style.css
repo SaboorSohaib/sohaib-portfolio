@@ -97,6 +97,9 @@
 
   .green {
     color: rgb(54, 179, 127);
+    display: flex;
+    flex-direction: row;
+    margin-right: 80px;
     animation: moveInRight 1s;
   }
 

@@ -4,6 +4,7 @@ const msg = document.querySelector('#message');
 const form = document.querySelector('form');
 const body = document.querySelector('body');
 
+
 const retrieveData = localStorage.getItem('user');
 
 body.onload = () => {
@@ -40,3 +41,9 @@ document.querySelectorAll('.input').forEach((input) => {
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 });
+
+const nameInput = document.querySelector('#name');
+const email = document.querySelector('#email');
+const msg = document.querySelector('#message');
+const form = document.querySelector('form');
+const body = document.querySelector('body');

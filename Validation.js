@@ -1,4 +1,4 @@
-// ======================= Form Validation ===================================
+// ======================= Form Validation ================================
 
 const submitBtn = document.querySelector('#submit-btn');
 const validEmail = (email) => {

@@ -997,19 +997,13 @@
   }
 
    .top-nav {
-      /* display: flex;
-      flex-direction: row;
-      justify-content: center;
-      margin-top: 16px; */
-      display: none;
+     display: flex !important;
+     flex-direction: row;
+     justify-content: center;
+     margin-top: 16px;
   }
 
-    .top-nav-ul {
-      display: flex;
-      flex-direction: row;
-  }
-
-    .top-nav-a a {
+  .top-nav-a a {
       padding: 10px;
       text-decoration: none;
       font-family: "Inter", sans-serif;

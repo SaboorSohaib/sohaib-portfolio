@@ -13,6 +13,7 @@
       rel="stylesheet" />
     <link rel="stylesheet" href="./fontawesome/css/all.css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="modal.css" type="text/css">
     <title>Sohaib</title>
   </head>
   <body>
@@ -73,6 +74,7 @@
           </div>
         </section>
       </header>
+      <div id="popModal" class="modal"></div>
       <!--Recent Work Section-->
       <section class="recentwork">
         <div class="text">
@@ -91,7 +93,7 @@
               <li><a href="#">JavaScript</a></li>
               <li><a href="#">html</a></li>
             </ul>
-            <button>See Project</button>
+            <button onclick="projectsDetails(0)">See Project</button>
           </div>
           <div class="multi-stories2">
             <div class="cardpohto"></div>
@@ -103,7 +105,7 @@
               <li><a href="#">JavaScript</a></li>
               <li><a href="#">html</a></li>
             </ul>
-            <button>See Project</button>
+            <button onclick="projectsDetails(1)">See Project</button>
           </div>
           <div class="multi-stories3">
             <div class="cardpohto"></div>
@@ -115,7 +117,7 @@
               <li><a href="#">JavaScript</a></li>
               <li><a href="#">html</a></li>
             </ul>
-            <button>See Project</button>
+            <button onclick="projectsDetails(2)">See Project</button>
           </div>
           <div class="multi-stories4">
             <div class="cardpohto"></div>
@@ -127,7 +129,7 @@
               <li><a href="#">JavaScript</a></li>
               <li><a href="#">html</a></li>
             </ul>
-            <button>See Project</button>
+            <button onclick="projectsDetails(3)">See Project</button>
           </div>
           <div class="multi-stories5">
             <div class="cardpohto"></div>
@@ -139,7 +141,7 @@
               <li><a href="#">JavaScript</a></li>
               <li><a href="#">html</a></li>
             </ul>
-            <button>See Project</button>
+            <button onclick="projectsDetails(4)">See Project</button>
           </div>
           <div class="multi-stories6">
             <div class="cardpohto"></div>
@@ -151,7 +153,7 @@
               <li><a href="#">JavaScript</a></li>
               <li><a href="#">html</a></li>
             </ul>
-            <button>See Project</button>
+            <button onclick="projectsDetails(5)">See Project</button>
           </div>
         </div>
         <!--About Section-->
@@ -275,7 +277,11 @@
         <div class="last-div"></div>
       </section>
     </div>
-    <script src="local-storage.js"></script>
+
+    <script src="popup.js"></script>
+
+   
+
     <script src="menu.js"></script>
   </body>
 </html>

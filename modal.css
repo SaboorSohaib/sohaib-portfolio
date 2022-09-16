@@ -148,9 +148,9 @@
   background-color: rgb(84, 236, 173);
 }
 
-span {
+/* span {
   width: 80px;
-}
+} */
 
 @media only screen and (min-width: 900px) {
   .pop-modal-content {

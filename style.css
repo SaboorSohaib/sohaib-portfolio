@@ -816,7 +816,7 @@
     font-size: 40px;
     line-height: 52px;
     text-align: center;
-    color: rgb(23, 43, 77);
+    color: rgb(56, 113, 212);
     align-items: flex-end;
     padding: 0 24px;
     margin-top: 50px;
@@ -891,7 +891,7 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    color: rgb(9, 30, 66);
+    color: rgb(56, 113, 212);
     margin-left: 120px;
   }
 
@@ -1010,7 +1010,7 @@
       font-style: normal;
       font-size: 16px;
       font-weight: 600;
-      color: rgb(9, 30, 66);
+      color: rgb(56, 113, 212);
     }
 
     .greating {
@@ -1050,7 +1050,7 @@
       font-size: 48px;
       line-height: 60px;
       letter-spacing: 0.37px;
-      color: rgb(23, 43, 77);
+      color: rgb(56, 113, 212);
       margin-top: 50px;
       align-items: center;
       animation: moveInLeft 1s ease-out;
@@ -1159,7 +1159,7 @@
       display: flex;
       align-items: center;
       text-align: center;
-      color: rgb(23, 43, 77);
+      color: rgb(56, 113, 212);
    }
 
    .tag {
@@ -1176,7 +1176,7 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: rgb(23, 43, 77);
+    color: rgb(56, 113, 212);
    }
 
    .about {
@@ -1231,7 +1231,7 @@
     line-height: 52px;
     align-items: center;
     text-align: center;
-    color: rgb(23, 43, 77);
+    color: rgb(56, 113, 212);
     width: 463px;
     height: 256px;
     margin: auto;
